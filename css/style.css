@@ -129,7 +129,7 @@ section {
 .btn {
 	border-radius: 118px;
 	border: 2px solid #2C2F24;
-	text-align: right;
+	text-align: end;
 	color: #182226;
 	font-size: 16px;
 	font-weight: 700;

@@ -128,7 +128,7 @@ section {
 
 .btn {
 	border-radius: 118px;
-	border: 2px solid (#2C2F24);
+	border: 2px solid #2C2F24;
 	text-align: right;
 	color: #182226;
 	font-size: 16px;
@@ -162,12 +162,14 @@ section {
 
 .head{
 	padding: 20px 0;
+}
+.menu{
 	margin-right: 8px;
 }
-.head:last-child{
+.menu:last-child{
 	margin-right: 0;
 }
-.head_logo{
+.head_logo img {
 	width: 211.167px;
-height: 55px;
+height: 50px;
 }

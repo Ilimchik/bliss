@@ -162,4 +162,8 @@ section {
 
 .head{
 	padding: 20px 0;
+	margin-right: 8px;
+}
+.head:last-child{
+	margin-right: 0;
 }

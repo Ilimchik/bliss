@@ -187,13 +187,14 @@ transition: 0.3s;
 .main_btn{
 	border-radius: 118px;
 	border: 2px solid #2C2F24;
+	display: flex;
 	justify-content: center;
     align-items: center;
 	color: #182226;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 24px;
-	padding: 12px 24px;
+	padding: 20px 32px;
 	transition: 0.3s;
 }
 .main_btn:hover {

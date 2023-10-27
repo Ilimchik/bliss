@@ -224,8 +224,8 @@ transition: 0.3s;
 	color: #fff;
 }
 .main_btns{
-	padding-right: 15px;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content:center;
+	margin-right: 15px;
    
 }

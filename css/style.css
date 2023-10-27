@@ -230,6 +230,7 @@ section {
 
 .browse_card {
 	border-radius: 12px;
-	border: 2px solid(--neutral-03, #DBDFD0);
-	background: (--neutral-01, #FFF);
+	border: 2px solid #DBDFD0;
+	background:  #FFF;
+	width: calc((100% - 72px) / 4);
 }

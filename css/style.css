@@ -108,6 +108,7 @@ section {
 	color: #495460;
 	text-align: center;
 	font-style: normal;
+	margin-bottom: 40px;
 }
 
 .color {
@@ -186,7 +187,7 @@ transition: 0.3s;
 
 /* main */
 .main{
-	background: image();
+	background-image: url(/img/icons/main_img.jpg) ;
 }
 
 .main_btn{
@@ -211,7 +212,6 @@ transition: 0.3s;
 	border: 2px solid #2C2F24;
 	display: flex;
 	justify-content: center;
-    align-items: center;
 	color: #182226;
 	font-size: 16px;
 	font-weight: 700;
@@ -222,4 +222,9 @@ transition: 0.3s;
 .expl_btn:hover {
 	background-color: #AD343E;
 	color: #fff;
+}
+.main_btns{
+	padding-right: 15px;
+	display: flex;
+	justify-content: center;
 }

@@ -226,5 +226,6 @@ transition: 0.3s;
 .main_btns{
 	padding-right: 15px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
+   
 }

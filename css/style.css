@@ -214,6 +214,7 @@ transition: 0.3s;
 .main_btns{
 	display: flex;
 	justify-content:center;
-	margin-right: 15px;
-   
+}
+.btn__red:hover{
+	background-color: #AD343E;
 }

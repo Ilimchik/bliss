@@ -214,3 +214,7 @@ transition: 0.3s;
 	padding: 20px 32px;
 	transition: 0.3s;
 }
+.expl_btn:hover {
+	background-color: #AD343E;
+	color: #fff;
+}

@@ -233,4 +233,6 @@ section {
 	border: 2px solid #DBDFD0;
 	background:  #FFF;
 	width: calc((100% - 72px) / 4);
+	padding: 40px 24px 32px;
+	
 }

@@ -195,3 +195,7 @@ transition: 0.3s;
 	padding: 12px 24px;
 	transition: 0.3s;
 }
+.main_btn:hover {
+	background-color: #AD343E;
+	color: #fff;
+}

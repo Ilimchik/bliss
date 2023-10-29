@@ -251,7 +251,6 @@ border-radius: 50%;
 display: block;
 background: #f3f3f0;
 margin: 0 auto 30px;
-background-image: url();
 }
 .browse_tit{
 	color:#2C2F24;
@@ -268,6 +267,7 @@ text-align: center;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px; 
+margin-bottom: 30px;	
 }
 .browse_link{
 	color: #AD343E;
@@ -275,4 +275,8 @@ text-align: center;
 font-size: 16px;
 font-weight: 700;
 line-height: 24px; 
+}
+ .browse_card__1 .browse_ic {
+	padding: 25px 26px;
+	background-image: url(/img/icons/icon_tea.png);
 }

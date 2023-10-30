@@ -93,7 +93,8 @@ body {
 section {
 	padding: 100px 0;
 }
-.main_txt{
+
+.main_txt {
 	color: #2C2F24;
 	text-align: center;
 	font-family: " Playfair Display";
@@ -296,18 +297,33 @@ section {
 
 .browse_card__1 .browse_ic {
 	padding: 25px 26px;
-	background-image: url(/img/icons/icon_tea.png);
+	background-image: url(/img/icons/icon_tea.png)	;
 }
+
 /* provide */
-.provide__txt{
+
+.prov_img {
+	max-width: 550px;
+	display: inline-flex;
+	justify-content: flex-end;
+	align-items: center;
+	border-radius: 12px;
+	background: #DBEAFE;
+}
+
+.provide__tit {
 	max-width: 557px;
 }
 
-.prov_img{
-	max-width: 600px;
-	display: inline-flex;
-justify-content: flex-end;
+.provide__txt {
+	color: #2C2F24;
+	max-width: 557px;
+}
+.provide__desc{
+	width: 557px;
+}
+.provide__btn{
+padding: 20px 32px;
+justify-content: center;
 align-items: center;
-border-radius: 12px;
-background: #DBEAFE;
 }

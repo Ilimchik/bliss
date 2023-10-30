@@ -297,7 +297,7 @@ section {
 
 .browse_card__1 .browse_ic {
 	padding: 25px 26px;
-	background-image: url(/img/icons/icon_tea.png)	;
+	background: url(/img/icons/icon_tea.png) no-repeat;
 }
 
 /* provide */
@@ -319,11 +319,98 @@ section {
 	color: #2C2F24;
 	max-width: 557px;
 }
-.provide__desc{
+
+.provide__desc {
 	width: 557px;
 }
-.provide__btn{
-padding: 20px 32px;
-justify-content: center;
-align-items: center;
+
+.provide__btn {
+	padding: 20px 32px;
+	justify-content: center;
+	align-items: center;
+}
+
+.provide_left {
+	width: calc(50% - 45px);
+	position: relative;
+}
+
+.provide_right {
+	width: calc(50% - 45px);
+}
+
+.provide_info {
+	border-radius: 12px;
+	background: #474747;
+	padding: 50px;
+	color: #fff;
+	width: 441px;
+}
+
+.provide_info {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+/* offer */
+.main__offer {
+	margin-bottom: 61px;
+}
+
+.img_card_1 {
+	width: 306px;
+	height: 320px;
+}
+
+.card__1 {
+	max-width: 306px;
+	font-size: 24px;
+}
+
+.card_desc__1 {
+	font-size: 16px;
+}
+
+.offer_cards {
+	display: flex;
+	flex-direction: row;
+}
+
+.offer_card_1 {
+	width: 306px;
+	height: 443px;
+}
+
+/* fast food */
+
+.fast_tit{
+	padding: 0;
+	max-width: 461px;
+	margin-bottom: 20px;
+}
+.fast_desc{
+	margin-bottom: 50px;
+}
+.fast_left {
+	width: calc(50% - 45px);
+}
+
+.fast_right {
+	width: calc(50% - 45px);
+}
+
+.food_card_1 {
+	max-width: 431px;
+	height: 600px;
+}
+
+.food_card_2 {
+	max-width: 290px;
+	height: 333px;
+}
+
+.food_card_3 {
+	max-width: 290px;
+	height: 240px;
 }

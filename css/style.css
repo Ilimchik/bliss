@@ -355,7 +355,7 @@ section {
 
 /* offer */
 .main__offer {
-	margin-bottom: 61px;
+	margin-bottom: 120px;
 }
 
 .img_card_1 {
@@ -388,9 +388,11 @@ section {
 	padding: 0;
 	max-width: 461px;
 	margin-bottom: 20px;
+	line-height: 60.5px;
 }
 .fast_desc{
 	margin-bottom: 50px;
+	line-height: 24px;
 }
 .fast_left {
 	width: calc(50% - 45px);
@@ -401,16 +403,24 @@ section {
 }
 
 .food_card_1 {
-	max-width: 431px;
-	height: 600px;
+	max-width: 380px;
+	height: auto;
+	padding-right: 5px;
 }
 
 .food_card_2 {
-	max-width: 290px;
-	height: 333px;
+	padding-top: 30px;
+	max-width: 190px;
+	height: 300px;
+	margin-bottom: 24px;
 }
 
 .food_card_3 {
-	max-width: 290px;
-	height: 240px;
+	max-width: 190px;
+	height: 220px;
+}
+
+.del_icon_1{
+	width: 30px;
+	height: 30px;
 }

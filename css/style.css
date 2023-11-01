@@ -201,7 +201,7 @@ section {
 
 /* main */
 .main {
-	background-image: url(/img/icons/main_img.jpg);
+	background-image: url(/img/main_img.jpg);
 }
 
 .main_btn {
@@ -383,7 +383,9 @@ section {
 }
 
 /* fast food */
-
+.fast_food{
+	background:#F9F9F7 ;
+}
 .fast_tit{
 	padding: 0;
 	max-width: 461px;
@@ -405,14 +407,14 @@ section {
 }
 
 .food_card_1 {
-	max-width: 350px;
+	max-width: 380px;
 	height: auto;
 	padding-right: 5px;
 }
 
 .food_card_2 {
 	padding-top: 30px;
-	max-width: 200px;
+	max-width: 190px;
 	height: 300px;
 	margin-bottom: 24px;
 }
@@ -436,3 +438,14 @@ section {
 .del_sec_1{
 	height: 26px;
 }
+.del_icon i{
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	background: #AD343E url(/img/icons/f_icon_1.png);
+}
+
+/* customers */
+
+

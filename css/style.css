@@ -395,11 +395,13 @@ section {
 	line-height: 24px;
 }
 .fast_left {
-	width: calc(50% - 45px);
+	float: left;
+	width: calc(50% - 40px);
 }
 
 .fast_right {
-	width: calc(50% - 45px);
+	float: left;
+	width: calc(50% - 40px);
 }
 
 .food_card_1 {
@@ -421,6 +423,11 @@ section {
 }
 
 .del_icon_1{
+	margin-bottom: 20px;
 	width: 30px;
 	height: 30px;
+}
+.del_txt_1{
+	font-size: 20px;
+	
 }
